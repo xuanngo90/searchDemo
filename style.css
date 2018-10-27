@@ -1,0 +1,21 @@
+.formInline .formGroup {
+    display: inline-block;
+}
+
+.line {
+    height: 0;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px dashed #000;
+}
+
+.line:after,
+.line:before {
+    content: "";
+    display: block;
+}
+
+.line:after {
+    clear: both;
+}
